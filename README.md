@@ -1,2 +1,2 @@
 # AlexPharmacies
-Xlab Assignment | Static homepage for a pharmacy system 
+Xlab Assignment | Static homepage for a pharmacy system developed
