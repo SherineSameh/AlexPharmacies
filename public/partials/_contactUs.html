@@ -1,0 +1,115 @@
+<div class="row teal">
+  <h4>
+    <span  class="grey-text"> CONTACT&nbsp; </span>
+    <span  class="white-text"> US </span>
+  </h4>
+  <div class="row">  <hr class="col s2 offset-s5 whiteheadline" /></div>
+
+  <div class="col s10 offset-s1 m10 offset-m1">
+     <div class="col s12 m4">
+       <div class="card-panel" style="height: 300px;">
+         <div id="map1" class="map"></div>
+       </div>
+       <span class="white-text">
+         <i class="material-icons">location_on</i> &nbsp; 38, Ikbal St. - El Saraya <br />
+         <i class="material-icons">phone</i> &nbsp; Phone: 03 3593300 <br />
+         <i class="material-icons">stay_current_portrait</i> &nbsp; Mobile: 01201889775
+       </span>
+     </div>
+     <div class="col s12 m4">
+       <div class="card-panel" style="height: 300px;">
+         <div id="map2" class="map"></div>
+       </div>
+       <span class="white-text">
+         <i class="material-icons">location_on</i> &nbsp; 38, Ikbal St. - El Saraya <br />
+         <i class="material-icons">phone</i> &nbsp; Phone: 03 3593300 <br />
+         <i class="material-icons">stay_current_portrait</i> &nbsp; Mobile: 01201889775
+       </span>
+     </div>
+     <div class="col s12 m4">
+       <div class="card-panel" style="height: 300px;">
+         <div id="map3" class="map"></div>
+       </div>
+       <span class="white-text">
+         <i class="material-icons">location_on</i> &nbsp; 38, Ikbal St. - El Saraya <br />
+         <i class="material-icons">phone</i> &nbsp; Phone: 03 3593300 <br />
+         <i class="material-icons">stay_current_portrait</i> &nbsp; Mobile: 01201889775
+       </span>
+     </div>
+   </div>
+  <div class="col s12 m12">
+    <br />
+    <h4 class="white-text"> Ask Doctor</h4>
+  </div>
+  <form ng-submit="askDoctor()" name="form" role="form">
+    <div class="col m10 offset-m1 s10 offset-s1">
+      <div class="col s12 m4">
+        <div class="input-custom-group teal lighten-1">
+          <input class="input-custom-field"placeholder="Name" ng-model="form.name" ng-required="true"/>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="input-custom-group teal lighten-1">
+          <input class="input-custom-field"placeholder="Email" ng-model="form.email" ng-required="true"/>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="input-custom-group teal lighten-1">
+          <input class="input-custom-field"placeholder="Mobile" ng-model="form.number" ng-required="true"/>
+        </div>
+      </div>
+    </div>
+    <div class="col s10 offset-s1">
+      <br />
+      <div class="col s12">
+        <div class="input-custom-group teal lighten-1">
+          <textarea cols="10" class="input-custom-field"placeholder="Comment" style="height:80px; padding-top:1rem !important" ng-model="form.comment" ng-required="true"></textarea>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="col s12 m12">
+        <br />
+        <input class="waves-effect waves-light btn col s10 offset-s1 col m2 offset-m5 grey" type="submit" value="Send">
+    </div>
+  </form>
+</div>
+
+<script>
+  function initMap() {
+    var address1 = {lat: 31.248284, lng: 29.970969};
+    var map1 = new google.maps.Map(document.getElementById('map1'), {
+      zoom: 17,
+      center: address1
+    });
+    var marker1 = new google.maps.Marker({
+      position: address1,
+      map: map1,
+      title: 'Alex Pharmacies'
+    });
+
+    var address2 = {lat: 31.251320, lng: 29.975083};
+    var map2 = new google.maps.Map(document.getElementById('map2'), {
+      zoom: 17,
+      center: address2
+    });
+    var marker2 = new google.maps.Marker({
+      position: address2,
+      map: map2,
+      title: 'Alex Pharmacies'
+    });
+
+    var address3 = {lat: 31.244239, lng: 29.965740};
+    var map3 = new google.maps.Map(document.getElementById('map3'), {
+      zoom: 17,
+      center: address3
+    });
+    var marker3 = new google.maps.Marker({
+      position: address3,
+      map: map3,
+      title: 'Alex Pharmacies'
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9T2S55GNSuIObEhKZCcT4zBa5I1v1lss&callback=initMap">
+</script>

@@ -1,39 +1,36 @@
-<nav class="nav-extended" id="nav">
-  <div id="top-header" class="row nav-wrapper">
-    <div id="top-header-content" class="col s10 offset-s1">
-      <a ui-sref="#/main/home" class="brand-logo">
+<nav class="nav-extended grey">
+  <div class="row nav-wrapper grey">
+    <div class="col s10 offset-s1">
+      <a ui-sref="#" class="brand-logo">
         <img class="responsive-img" ng-src="public/assets/img/logo.png"/>
       </a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li>
-          <a class="waves-effect social-icon btn white">
-            <i class="fa fa-facebook" style="color:#696a6c;"></i>
+          <a class="waves-effect social-icon btn white social-icon-btn">
+            <img class="social-icon-img" ng-src="public/assets/img/facebook.png"/>
           </a>
         </li>
         <li>
-          <a class="waves-effect social-icon btn white">
-            <i class="fa fa-twitter" style="color:#696a6c;"></i>
+          <a class="waves-effect social-icon btn white social-icon-btn">
+            <img class="social-icon-img" ng-src="public/assets/img/twitter.png"/>
           </a>
         </li>
         <li>
-          <a class="waves-effect social-icon btn white">
-            <i class="fa fa-linkedin" style="color:#696a6c;"></i>
+          <a class="waves-effect social-icon btn white social-icon-btn">
+            <img class="social-icon-img" ng-src="public/assets/img/linkedin.png"/>
           </a>
         </li>
         <li>
-          <a class="waves-effect social-icon btn white">
-            <i class="fa fa-phone" style="color:#696a6c;"></i>
-          </a>
+          <a class="waves-effect social-icon btn white social-icon-btn"><i class="material-icons grey-text social-icon-img">phone</i></a>
         </li>
-        <li style="line-height:20px; border-left:1px solid #fff;height:auto;">
+        <li class="contact-numbers">
           <span>
             <b> &nbsp 358 84 41 </b><br />
             <b> &nbsp 359 33 00 </b><br />
             <b> &nbsp 585 58 51 </b>
           </span>
         </li>
-        <li style="font-family:'Droid Arabic Naskh', serif; line-height:20px; text-align:right;">
+        <li class="contact-names">
           <span>
              الاقبال<br />
              السراى<br />
@@ -41,21 +38,10 @@
           </span>
         </li>
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li style="font-family:'Droid Arabic Naskh', serif; line-height:60px;">
-          <span>
-            <b>358 84 41 </b> الاقبال<br />
-            <b>359 33 00 </b> السراى<br />
-            <b>585 58 51 </b> زيزينيا
-          </span>
-        </li>
-        <li>
-          <a class="waves-effect waves-light social-icon btn google"><i class="fa fa-google"></i></a>
-        </li>
-      </ul>
     </div>
+    <br />
   </div>
-  <div id="bottom-header" class="row nav-content">
+  <div class="row nav-content teal">
     <ul class="col s10 offset-s1 tabs tabs-transparent">
         <li class="tab"><a href="" class="active">Home</a></li>
         <li class="tab disabled"><a href="">About Us</a></li>
@@ -70,9 +56,8 @@
 </nav>
 
 <script>
-  $( document ).ready(function(){
-    $('ul.tabs').tabs();
-    $(".button-collapse").sideNav();
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-  })
+$( document ).ready(function(){
+  $('ul.tabs').tabs();
+  $(".button-collapse").sideNav();
+  });
 </script>

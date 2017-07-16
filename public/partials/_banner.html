@@ -1,13 +1,19 @@
-<div class="carousel carousel-slider center" data-indicators="true">
-   <div class="carousel-item">
-       <img  ng-src="public/assets/img/Medico_dermatologo_boticas_qf.jpg"/>
-   </div>
-   <div class="carousel-item amber white-text">
-     <h2>Second Panel</h2>
-     <p class="white-text">This is your second panel</p>
-   </div>
-   <div class="carousel-item green white-text">
-     <h2>Third Panel</h2>
-     <p class="white-text">This is your third panel</p>
-   </div>
- </div>
+<div class="row" style="padding:0px;">
+  <div class="carousel carousel-slider center"data-indicators="true">
+    <div class="carousel-item">
+        <img class="responsive-img" ng-src="public/assets/img/Medico_dermatologo_boticas_qf.jpg"/>
+    </div>
+    <div class="carousel-item amber white-text">
+      <h2>Second Panel</h2>
+    </div>
+    <div class="carousel-item green white-text">
+      <h2>Third Panel</h2>
+    </div>
+  </div>
+</div>
+
+  <script>
+  $( document ).ready(function(){
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+    });
+  </script>

@@ -71,6 +71,10 @@
 }
 .facebook i {
   color: #fff !important;
+  padding: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  
 }
 .facebook:hover {
   background-color: #4c70ba !important;
