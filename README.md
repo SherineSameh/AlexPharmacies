@@ -9,7 +9,7 @@ Developed using:
 ## Installation and Preview:
 1. Start Apache Server
     ```bash
-    $ sudo opt/lampp/lampp start
+    $ sudo /opt/lampp/lampp start
     ```
 2. Clone [**the repo**](https://github.com/SherineSameh/AlexPharmacies.git) at **/opt/lampp/htdocs**
     ```bash
