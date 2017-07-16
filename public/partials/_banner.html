@@ -1,7 +1,7 @@
-<div class="row" style="padding:0px;">
-  <div class="carousel carousel-slider center"data-indicators="true">
+<div class="row showAds" style="padding:0px;">
+  <div class="carousel carousel-slider center ads" data-indicators="true">
     <div class="carousel-item">
-        <img class="responsive-img" ng-src="public/assets/img/Medico_dermatologo_boticas_qf.jpg"/>
+        <img class="showAds" ng-src="public/assets/img/Medico_dermatologo_boticas_qf.jpg"/>
     </div>
     <div class="carousel-item amber white-text">
       <h2>Second Panel</h2>
@@ -15,5 +15,9 @@
   <script>
   $( document ).ready(function(){
       $('.carousel.carousel-slider').carousel({fullWidth: true});
+      $('.carousel.carousel-slider').carousel();
+        setInterval(function() {
+          $('.carousel').carousel('next');
+        }, 5000);
     });
   </script>

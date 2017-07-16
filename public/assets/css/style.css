@@ -153,3 +153,33 @@ textarea {
   width: 10rem;
   height: 10rem;
 }
+.ads {
+  display:block;
+  height:100% !important;
+}
+@media only screen and (min-width: 993px) {
+  .showAds {
+    display: block !important;
+    height: 580px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 992px) {
+  .showAds {
+    display: block !important;
+    height:400px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 699px){
+  .showAds {
+    display: block !important;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 349px){
+  .showAds {
+    display: block !important;
+    height: 100px;
+  }
+}
