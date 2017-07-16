@@ -35,6 +35,7 @@ app.controller('teamCtrl', function($scope, $http) {
 app.controller('mediaCtrl', function($scope, $http) {
   sendRequest($http).success(function(data) {
     $scope.media = data.mediaMockupData;
+    $scope.latestNews = data.latestNewsMockupData;
   });
 });
 app.controller('newsCtrl', function($scope, $http) {

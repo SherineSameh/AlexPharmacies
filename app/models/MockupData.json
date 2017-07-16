@@ -54,30 +54,30 @@
          "mobile":"01201889775"
       },
       { "index": "map1",
-        "address" : "" ,
+        "address" : "9, Hassan Amin - El Saraya" ,
          "lat" : " 31.251320",
          "lng" : "29.975083",
          "title" : "Alex Pharmacies",
-         "phone":"",
-         "mobile":""
+         "phone":" 03 3588441",
+         "mobile":"01157169988"
       },
       { "index": "map2",
-        "address" : "" ,
+        "address" : "10, Hamed El Khouly - Zizenia" ,
          "lat" : "31.244239",
          "lng" : "29.965740",
          "title" : "Alex Pharmacies",
-         "phone":"",
-         "mobile":""
+         "phone":" 03 5855851",
+         "mobile":"01288111234"
       }
   ],
   "newsMockupData" :[
     {
-      "name": "news1",
+      "title": "How to be better about bringing your lunch to work",
       "img": "public/assets/img/1.jpg",
       "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "name": "news2",
+      "title": "No flu nasal spray next season:Why is this vaccine not working?",
       "img": "public/assets/img/2.jpg",
       "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
@@ -115,38 +115,62 @@
   "servicesMockupData" :[
     {
       "index": "1",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Counseling and Support through phone and through face-to-face interaction",
       "img": "public/assets/img/Ellipse 1.png"
     },
     {
       "index": "2",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Very wide Product Selection with a very systematic section-base product display",
       "img": "public/assets/img/Ellipse 2.png"
     },
     {
       "index": "3",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Custom Compounding Services",
       "img": "public/assets/img/Ellipse 3.png"
     },
     {
       "index": "4",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Visa Payment",
       "img": "public/assets/img/Ellipse 4.png"
     },
     {
       "index": "5",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Home Delivery with visa payment option",
       "img": "public/assets/img/Ellipse 5.png"
     },
     {
       "index": "6",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Keeping medical history records upon request to create and main",
       "img": "public/assets/img/Ellipse 6.png"
     },
     {
       "index": "7",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "content": "Health Day event",
       "img": "public/assets/img/Ellipse 7.png"
+    }
+  ],
+  "mediaMockupData": [
+    {"src":"public/assets/img/services4_b.png"},
+    {"src":"public/assets/img/services5_b.png"},
+    {"src":"public/assets/img/services7_b.png"},
+    {"src":"public/assets/img/1_2_B.png"},
+    {"src":"public/assets/img/services12_b.png"},
+    {"src":"public/assets/img/2_2_B.png"}
+  ],
+  "latestNewsMockupData": [
+    {
+      "index":"0",
+      "img":"public/assets/img/1_1_B.png",
+      "title":"A third branch to be opened very soon",
+      "date":"19 Aug 2016",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "index": "1",
+      "img":"public/assets/img/2_2_B.png",
+      "title":"blablabla",
+      "date":"16 Jul 2017",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   ]
 }

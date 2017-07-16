@@ -1,0 +1,46 @@
+<div class="row grey lighten-3">
+  <h4>
+    <span  class="teal-text"> MEDIA </span>
+  </h4>
+  <div class="row">  <hr class="col s2 offset-s5 lightgreyheadline" /></div>
+  <div class="col s10 offset-s1 m10 offset-m1">
+    <div class="col s12 m8">
+      <div class="col s12 m12">
+        <input class="input-custom-btn col s2" type="submit" value="PHOTOS">
+        <div class="input-custom-group col s10">
+          <input class="input-custom-field" type="text" placeholder="VIDEOS"/>
+        </div>
+      </div>
+      <br />
+      <div class="col s12 m4" ng-repeat="pic in media">
+         <div class="card">
+             <div class="card-image">
+               <img class="responsive-img" ng-src="{{pic.src}}"/>
+             </div>
+         </div>
+      </div>
+      <div class="col m2 s6">
+        <a class="waves-effect waves-light btn col grey">More</a>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="col col s12 m12">
+        <input class="col s6 m6 input-custom-btn" type="submit" value="LATEST NEWS" ng-disabled="true">
+        <input class="col s3 m3 input-custom-btn" type="submit" value="<" ng-click="count = count + 1" ng-init="count = 0">
+        <input class="col s3 m3 input-custom-btn" type="submit" value=">" ng-click="count = count - 1">
+      </div>
+      <br /><br />
+      <div class="row">
+          <div ng-repeat="data in latestNews" ng-show="data.index == count">
+            <span class="col s12 m12"><b>{{data.title}}</b></span><br />
+            <img  class="col s12 m12" ng-src="{{data.img}}"/>
+            <span class="col s12 m12 grey-text lighten-1"><b>{{data.date}}</b></span><br />
+            <span class="col s12 m12"> {{data.content}}</span>
+          </div>
+      </div>
+      <!-- <div class="col m2 s6 offset-s6">
+        <a class="waves-effect waves-light btn grey">More</a>
+      </div> -->
+    </div>
+  </div>
+</div>
