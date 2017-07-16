@@ -19,5 +19,7 @@ Developed using:
 
 ## License:
 All Rights Reserved © 2016 - Alex Pharmacies
+
 Powered & Designed by [Xlab Software](http://xlab-group.com/)
+
 Licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
