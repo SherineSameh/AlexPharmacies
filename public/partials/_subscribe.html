@@ -9,11 +9,13 @@
     </p>
     <div class="row">
       <div class="col s8 offset-s2">
-        <div class="input-custom-group col s9">
-          <input class="input-custom-field"placeholder="Email" />
+      <form ng-submit="subscribe()" name="form" role="form">
+          <div class="input-custom-group col s9">
+            <input class="input-custom-field validate" type="email" placeholder="Email" ng-model="form.email" ng-required="true"/>
+          </div>
+          <input class="input-custom-btn col s3" type="submit" value="Subscribe">
         </div>
-        <button class="input-custom-btn col s3" type="button">Subscribe</button>
-      </div>
+      </form>
     </div>
     <div class="footer-copyright">
       <p class="container white-text">

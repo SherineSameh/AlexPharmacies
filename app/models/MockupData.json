@@ -1,0 +1,115 @@
+{
+  "bannersMockupData" :[
+    { "img" : "public/assets/img/Medico_dermatologo_boticas_qf.jpg" },
+    { "img" : "public/assets/img/Medico_dermatologo_boticas_qf.jpg" },
+    { "img" : "public/assets/img/Medico_dermatologo_boticas_qf.jpg" }
+  ],
+  "offersMockupData" :[
+    {
+      "name": "offer1",
+      "img" : "public/assets/img/Layer 14.png"
+    },
+    {
+      "name": "offer2",
+      "img" : "public/assets/img/Layer 15.png"
+    },
+    {
+      "name": "offer3",
+      "img" : "public/assets/img/Layer 16.png"
+    }
+  ],
+  "sectionsMockupData" :[
+    {
+      "name": "womencare",
+      "img" : "public/assets/img/Women Care.png"
+    },
+    {
+      "name": "bodycare",
+      "img" : "public/assets/img/Forma 1.png"
+    },
+    {
+      "name": "mencare",
+      "img" : "public/assets/img/Man Care.png"
+    },
+    {
+      "name": "babycare",
+      "img" : "public/assets/img/Baby Care.png"
+    },
+    {
+      "name": "familycare",
+      "img" : "public/assets/img/Family Care.png"
+    },
+    {
+      "name": "haircare",
+      "img" : "public/assets/img/Forma 1 (1).png"
+    }
+  ],
+  "contactMockupData" :[
+      { "index": "map0",
+        "address" : "38, Ikbal St. - El Saraya" ,
+         "lat" : "31.248284",
+         "lng" : "29.970969",
+         "title" : "Alex Pharmacies",
+         "phone":"03 3593300",
+         "mobile":"01201889775"
+      },
+      { "index": "map1",
+        "address" : "" ,
+         "lat" : " 31.251320",
+         "lng" : "29.975083",
+         "title" : "Alex Pharmacies",
+         "phone":"",
+         "mobile":""
+      },
+      { "index": "map2",
+        "address" : "" ,
+         "lat" : "31.244239",
+         "lng" : "29.965740",
+         "title" : "Alex Pharmacies",
+         "phone":"",
+         "mobile":""
+      }
+  ],
+  "newsMockupData" :[
+    {
+      "name": "news1",
+      "img": "public/assets/img/1.jpg",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "news2",
+      "img": "public/assets/img/2.jpg",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ],
+  "teamMockupData" :[
+    {
+      "fullname": "Dr. Amal Ahmed",
+      "firstname": "Amal",
+      "lastname": "Ahmed",
+      "email": "amalahmed@gmail.com",
+      "img": "public/assets/img/Layer 4.png"
+    },
+    {
+      "fullname": "Dr. Ezzat Mahmoud",
+      "firstname": "Ezzat",
+      "lastname": "Mahmoud",
+      "email": "ezatmahmout@gmail.com",
+      "img": "public/assets/img/Layer 5.png"
+    },
+    {
+      "fullname": "Dr. Moustafa Ali",
+      "firstname": "Moustafa",
+      "lastname": "Ali",
+      "email": "moustafaali@gmail.com",
+      "img": "public/assets/img/Layer 6.png"
+    },
+    {
+      "fullname": "Dr. Amal Ahmed",
+      "firstname": "Amal",
+      "lastname": "Ahmed",
+      "email": "amalahmed@gmail.com",
+      "img": "public/assets/img/Layer 7.png"
+    }
+  ]
+}

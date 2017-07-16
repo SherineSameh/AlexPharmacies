@@ -5,29 +5,15 @@
   </h4>
   <div class="row">  <hr class="col s2 offset-s5 whiteheadline" /></div>
   <div class="col s10 offset-s1 m10 offset-m1">
-    <div class="col s12 m4">
+    <div class="col s12 m4" ng-repeat="offer in offers">
         <div class="card">
           <div class="card-image">
-            <img class="responsive-img" ng-src="public/assets/img/Layer 14.png"/>
-          </div>
-        </div>
-    </div>
-    <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image">
-            <img class="responsive-img" ng-src="public/assets/img/Layer 15.png"/>
-          </div>
-        </div>
-    </div>
-    <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image">
-            <img class="responsive-img" ng-src="public/assets/img/Layer 16.png"/>
+            <img class="responsive-img" ng-src="{{offer.img}}"/>
           </div>
         </div>
     </div>
   </div>
-  <div class="row">
-    <a class="waves-effect waves-light btn col m2 offset-m5 s10 offset-s1 grey">More</a>
+  <div class="col m2 offset-m5 s6 offset-s3">
+    <a class="waves-effect waves-light btn col m8 offset-m2 s12 grey">More</a>
   </div>
 </div>

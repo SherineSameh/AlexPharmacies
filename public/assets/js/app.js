@@ -12,34 +12,43 @@ app.config(function($stateProvider, $urlRouterProvider) {
               templateUrl: 'public/partials/_header.html'
           },
           'banner@home': {
-              templateUrl: 'public/partials/_banner.html'
+              templateUrl: 'public/partials/_banner.html',
+              controller: 'bannersCtrl'
           },
           'offers@home': {
-              templateUrl: 'public/partials/_offers.html'
+              templateUrl: 'public/partials/_offers.html',
+              controller: 'offersCtrl'
           },
           'about@home': {
               templateUrl: 'public/partials/_about.html'
           },
           'services@home': {
-              templateUrl: 'public/partials/_services.html'
+              templateUrl: 'public/partials/_services.html',
+              controller: 'servicesCtrl'
           },
           'sections@home': {
-              templateUrl: 'public/partials/_sections.html'
+              templateUrl: 'public/partials/_sections.html',
+              controller: 'sectionsCtrl'
           },
           'team@home': {
-              templateUrl: 'public/partials/_team.html'
+              templateUrl: 'public/partials/_team.html',
+              controller: 'teamCtrl'
           },
           'media@home': {
-              templateUrl: 'public/partials/_media.html'
+              templateUrl: 'public/partials/_media.html',
+              controller: 'mediaCtrl'
           },
           'healthNews@home': {
-              templateUrl: 'public/partials/_healthNews.html'
+              templateUrl: 'public/partials/_healthNews.html',
+              controller: 'newsCtrl'
           },
           'contactUs@home': {
-              templateUrl: 'public/partials/_contactUs.html'
+              templateUrl: 'public/partials/_contactUs.html',
+              controller: 'contactCtrl'
           },
           'subscribe@home': {
-              templateUrl: 'public/partials/_subscribe.html'
+              templateUrl: 'public/partials/_subscribe.html',
+              controller: 'subscribeCtrl'
           }
         }
       });

@@ -6,31 +6,20 @@
   <div class="row">  <hr class="col s2 offset-s5 greenheadline" /></div>
 
   <div class="col s10 offset-s1 m10 offset-m1">
-     <div class="col s12 m6">
+    <div class="col s12 m6" ng-repeat="new in news">
        <div class="card">
            <div class="card-image">
-             <img class="responsive-img" ng-src="public/assets/img/1.jpg"/>
+             <img class="responsive-img" ng-src="{{new.img}}"/>
            </div>
        </div>
        <span class="grey-text">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         {{new.content}}
        </span>
-     </div>
-     <div class="col s12 m6">
-       <div class="card">
-          <div class="card-image">
-            <img class="responsive-img" ng-src="public/assets/img/2.jpg"/>
-          </div>
-       </div>
-       <span class="grey-text">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </span>
-     </div>
-     <br />
+    </div>
+    <br />
    </div>
-
-   <div class="row">
+   <div class="col m2 offset-m5 s6 offset-s3">
      <br />
-     <a class="waves-effect waves-light btn col m2 offset-m5 s10 offset-s1 grey">More</a>
+     <a class="waves-effect waves-light btn col m8 offset-m2 s12 grey">More</a>
    </div>
 </div>

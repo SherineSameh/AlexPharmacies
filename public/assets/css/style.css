@@ -161,6 +161,7 @@ textarea {
   .showAds {
     display: block !important;
     height: 580px;
+    padding:0px;
   }
 }
 
@@ -168,12 +169,14 @@ textarea {
   .showAds {
     display: block !important;
     height:400px;
+    padding:0px;
   }
 }
 @media only screen and (min-width: 350px) and (max-width: 699px){
   .showAds {
     display: block !important;
     height: 250px;
+    padding:0px;
   }
 }
 
@@ -181,5 +184,6 @@ textarea {
   .showAds {
     display: block !important;
     height: 100px;
+    padding:0px;
   }
 }
