@@ -18,6 +18,9 @@ Developed using:
     ```
 3. Open the project: http://www.localhost/AlexPharmacies/#/home
 
+
+**OR** simply check it at: http://sherinesameh.me/AlexPharmacies/#/home
+
 ## License:
 All Rights Reserved © 2016 - Alex Pharmacies
 
