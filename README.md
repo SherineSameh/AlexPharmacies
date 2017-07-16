@@ -1,6 +1,6 @@
 # AlexPharmacies
 ## Description:
-Xlab Assignment | Dynamic homepage for a pharmacy system 
+Xlab Assignment | Dynamic homepage for a pharmacy 
 
 Developed using:
 - [Angular JS](https://angularjs.org/)
